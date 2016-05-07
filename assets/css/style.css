@@ -1,5 +1,6 @@
 .container{
 	width: 960px
+	background: #ffffff;
 }
 
 .main section{
@@ -8,10 +9,11 @@
 	float: left;
 }
 
-header{
+.header{
 
 	color: #4aaaa5;
 	font-family: 'Georgia' , Times, Times New Roman, serif; 
+	align-content: center;
 }
 
 body{
@@ -25,22 +27,31 @@ body{
 .sidebar {
 
 	width: 270px;
+	background: white;
+	margin: 10px;
+    padding: 10px;
+ 	float: right;
+
 	
 	
 }
 
-.mainheader {
+.main header {
 
 	background: #4aaaa5;
 	color: #ffffff;
 	border-color: #cccccc;
+	margin right: 5px;
+	padding: 5px;
+    width: 200px;
 }
 
 footer{
 
 	background: #666666;
-	color: white;
-	font-size: 10px
-	width: 10px
+	color: white; 
+	margin: 10px;
+    padding: 10px;
+    width: 960px;
 }
 
